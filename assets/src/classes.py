@@ -28,7 +28,7 @@ class banana(pygame.sprite.Sprite):
         self.y = self.rect.y
     
     def move(self):
-        self.rect.y += 20
+        self.rect.y += 1
         self.y = self.rect.y
     
     def delete(self):

@@ -7,8 +7,8 @@ pygame.init()
 
 lost = pygame.mixer.Sound("assets/sounds/perdio.mp3")
 coin = pygame.mixer.Sound("assets/sounds/recolecto.mp3")
-bg = pygame.image.load("assets/images/monito.png")
-screen = pygame.display.set_mode((1024, 800))
+bg = pygame.image.load("assets/images/fondo.png")
+screen = pygame.display.set_mode((1024, 700))
 blanco = (255, 255, 255)
 clock = pygame.time.Clock()
 
